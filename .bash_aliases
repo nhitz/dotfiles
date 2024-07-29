@@ -4,4 +4,3 @@ alias caddy-fmt='docker exec -it caddy sh -c "caddy fmt --overwrite /etc/caddy/C
 alias caddy-validate='docker exec -it caddy sh -c "caddy validate --config /etc/caddy/Caddyfile"'
 alias caddy-reload='docker exec -it caddy sh -c "caddy reload --config /etc/caddy/Caddyfile"'
 alias caddy-all='caddy-fmt && caddy-validate && caddy-reload'
-alias list-keys='gpg --list-secret-keys --keyid-format=long'
